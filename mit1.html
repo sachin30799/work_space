@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=vv , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: block;
+        }
+        .container{
+            display: block;
+            width: 220px;
+            margin: auto;
+        }
+        li:nth-child(odd){
+            color: aqua;
+        }
+        li:nth-child(even){
+            background-color: blueviolet;
+        }
+        li:nth-child(3n+0){
+            color:blue
+        }
+        a[target]{
+            color: black;
+        }
+        input[type='text']{
+            border-radius: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="blank">go to google</a></h1>
+        <from class="from-cntrol">
+            <input type="text" placeholder="enter your name">
+            <input type="password" placeholder="enter your password">
+            <input type="submit" value="submit">
+        </from>
+        <ul>
+            <li class="item" id="item1">item-1</li>
+            <li class="item" id="item2">item-2</li>
+            <li class="item" id="item3">item-3</li>
+            <li class="item" id="item4">item-3</li>
+            <li class="item" id="item5">item-4</li>
+            <li class="item" id="item5">item-4</li>
+            <li class="item" id="item5">item-4</li>
+            <li class="item" id="item5">item-4</li>
+            <li class="item" id="item5">item-4</li>
+        </ul>
+    </div>
+</body>
+</html>
